@@ -8,24 +8,8 @@ def my_collect(collection)
   new_collection #return the new array
 end
 
-whatever_array = ["Kim Kat", "Haley Dog", "King Mouse"]
+whatever_array = ["King Ghidorah", "Mecha Godzilla", "Queen Mothra"]
 
-my collect(whatever_array) do |animal|
-  
-
-
-
-
-
-
-def jaz_learns_to_code(despair)
-  amount_of_despair = 0
-  despair_jar = []
-  while amount_of_despair < despair.length
-    despair_jar << yield(despair[amount_of_despair])
-    amount_of_despair += 1
-  end
-  despair_jar
+my collect(whatever_array) do |monster|
+  monster.split (" ").first 
 end
-
-jaz_learns_to_code(["why", "no", "help me", "ugh", "i quit"]) { |phrase| "Jaz yells: #{phrase}" }
