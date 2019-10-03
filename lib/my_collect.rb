@@ -8,7 +8,8 @@ def my_collect(collection)
   new_collection #return the new array
 end
 
-G
+whatever_array = ["Kim Kat", "Haley Dog", "King Mouse"]
+
 my collect(whatever_array) do |animal|
   
 
