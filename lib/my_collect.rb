@@ -10,6 +10,6 @@ end
 
 whatever_array = ["King Ghidorah", "Mecha Godzilla", "Queen Mothra"]
 
-my collect(whatever_array) do |monster|
+my_collect(whatever_array) do |monster|
   monster.split (" ").first 
 end
