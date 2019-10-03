@@ -2,11 +2,15 @@ def my_collect(collection)
   counter = 0
   new_collection = []
   while counter < collection.length
-    new_collection  <<
+    new_collection << yield(collection[counter]) #[is index, spot in array]
+    counter += 1
   end
+  new_collection #return the new array
 end
 
-
+G
+my collect(whatever_array) do |animal|
+  
 
 
 
